@@ -1,0 +1,69 @@
+@import "../../styles/variables.scss";
+
+.card {
+    direction: ltr;
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    .image {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        background: #fdfdfd;
+    }
+
+    .title {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: $dark;
+        height: auto;
+        min-height: 48px;
+        overflow: visible;
+        text-align: left;
+    }
+
+    .price {
+        font-size: 1.25rem;
+        color: $primary;
+        font-weight: 800;
+        margin-bottom: 15px;
+        display: block;
+        text-align: left;
+    }
+
+    .addBtn {
+        background-color: $primary;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background 0.2s;
+        width: 100%;
+
+        &:hover {
+            background-color: #1d4ed8;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}
