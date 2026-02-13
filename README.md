@@ -1,16 +1,27 @@
-# React + Vite
+# Modern Store 🛒 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, modular E-commerce storefront built with **React.js** and **Vite**. This project features real-time data fetching, advanced filtering, and a persistent shopping cart.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Data:** Fetches product data from [FakeStoreAPI](https://fakestoreapi.com).
+- **Advanced Filtering:** Combined search (with **Debounce**), price range, and category filtering.
+- **Shopping Cart:** Add/remove items, update quantities, and calculate totals instantly.
+- **Persistence:** Keeps your cart data safe even after page refreshes using **LocalStorage**.
+- **Responsive Design:** Optimized for Mobile, Tablet, and Desktop views.
+- **Modular Architecture:** Built with reusable components and **SCSS Modules** for scoped styling.
+- **Modern UI:** Features a sleek product modal with **Related Products** suggestions.
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** (Functional Components & Hooks)
+- **Vite** (Build Tool)
+- **Sass (SCSS)** (Modular Styles)
+- **JavaScript (ES6+)**
+- **Git** (Version Control with Branching Strategy)
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
