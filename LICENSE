@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-### How to add this to your Git:
-1. Save the file as `README.md`.
-2. Run these commands in **Git Bash**:
-   ```bash
-   git add README.md
-   git commit -m "Add professional README"
-   git push origin final
